@@ -1,0 +1,10 @@
+dataroot_dir: ../dataset/brain_tumor_detection
+train_dir: images/train
+val_dir: images/val
+
+val_file: ./cfg/brain.anno.json
+
+class_list: {
+  0: 'negative',
+  1: 'positive',
+}

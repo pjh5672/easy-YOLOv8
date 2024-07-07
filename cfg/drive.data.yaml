@@ -1,0 +1,16 @@
+dataroot_dir: ../dataset/vehicles_detection
+train_dir: images/train
+val_dir: images/val
+
+val_file: ./cfg/drive.anno.json
+
+class_list: {
+  0: 'person',
+  1: 'bicycle',
+  2: 'car',
+  3: 'motorcycle',
+  4: 'bus',
+  5: 'truck',
+  6: 'traffic light',
+  7: 'stop sign'
+}

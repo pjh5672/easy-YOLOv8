@@ -1,0 +1,9 @@
+dataroot_dir: ../dataset/toy_dataset
+train_dir: images/train_5
+val_dir: images/train_5
+
+val_file: ./cfg/toy.anno.json
+
+class_list: {
+  0: 'dog'
+}

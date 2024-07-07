@@ -1,0 +1,10 @@
+dataroot_dir: ../dataset/cat_dog_detection
+train_dir: images/train
+val_dir: images/val
+
+val_file: ./cfg/catdog.anno.json
+
+class_list: {
+  0: 'cat',
+  1: 'dog',
+}
