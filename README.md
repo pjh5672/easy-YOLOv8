@@ -17,7 +17,7 @@ You can train your own YOLOv8 model with command like below. As for <DATASET> yo
 ```python
 
 # Training
-python train.py --arch yolov8n --img-size 640 --num-epochs 200 --mosaic --cos-lr --model-ema --project <YOUR PROJECT> --dataset <YOUR DATASET>
+python train.py --arch yolov8n --img-size 640 --num-epochs 200 --mosaic --close-mosaic 5 --model-ema --project <YOUR PROJECT> --dataset <YOUR DATASET>
 
 # Evaluation
 python val.py --project <YOUR PROJECT>
