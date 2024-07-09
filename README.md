@@ -14,6 +14,15 @@ You can train your own YOLOv8 model with command like below. As for <DATASET> yo
 	- [YOLOv8-n/s/m/l/x](https://drive.google.com/drive/folders/15ZSlGSijAzqIyV5PjmMKIOhKhXmemFOy?usp=sharing)
 
 
+| Model | Dataset | Train | Valid | Size<br><sup>(pixel) | mAP<br><sup>(@0.5:0.95) | Params<br><sup>(M) | FLOPs<br><sup>(B) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | 
+| YOLOv8n | COCO | train2017 | val2017 | 640 | 37.3 | 3.2 | 8.7 |
+| YOLOv8s | COCO | train2017 | val2017 | 640 | 44.9 | 11.2 | 28.6 |
+| YOLOv8m | COCO | train2017 | val2017 | 640 | 50.2 | 25.9 | 78.9 |
+| YOLOv8l | COCO | train2017 | val2017 | 640 | 52.9 | 43.7 | 165.2 |
+| YOLOv8x | COCO | train2017 | val2017 | 640 | 53.9 | 68.2 | 257.8 |
+
+
 ```python
 
 # Training
