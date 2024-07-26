@@ -1,4 +1,4 @@
-dataroot_dir: ../dataset/toy_dataset
+dataroot_dir: assets/samples
 train_dir: images/train_5
 val_dir: images/train_5
 
